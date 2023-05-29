@@ -1,0 +1,24 @@
+.footer {
+    height: 100%;
+    background: var(--background-highlight);
+    display: grid;
+    place-items: center;
+}
+
+.footerItems {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.githubIcon:hover {
+    fill: var(--text-subdued);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.twitterIcon:hover {
+    fill: var(--text-announcement);
+    transition: 0.3s;
+    cursor: pointer;
+}
