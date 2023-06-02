@@ -8,10 +8,10 @@ export default function Header() {
       </h1>
       <ul>
         <li>
-          <a href="">About</a>
+          <a href="#about">About</a>
         </li>
         <li>
-          <a href="">Skills</a>
+          <a href="#skills">Skills</a>
         </li>
         <li>
           <a href="">Projects</a>

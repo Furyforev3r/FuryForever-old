@@ -2,13 +2,16 @@ import styles from './page.module.css'
 import Header from '../components/header'
 import Footer from '../components/footer'
 import { AiFillGithub, AiFillTwitterCircle } from 'react-icons/ai'
+import { TbBrandNextjs, TbBrandPython, TbBrandTypescript, TbBrandFirebase } from 'react-icons/tb'
+import { SiFastapi } from 'react-icons/si'
+import { FaJava } from 'react-icons/fa'
 
 export default function Home() {
   return (
     <>
       <Header/>
       <main className={styles.main}>
-        <section className={styles.presentation}>
+        <section className={styles.presentation} id="about">
           <div className={styles.myInfo}>
             <h2>I'm <span><a href='https://github.com/FuryForev3r'>FuryForever!</a></span></h2>
             <p>Hi! My internet alias is FuryForever, but my real name is Messias. <br/> I am a Brazilian student and a Full Stack developer.</p>
@@ -25,6 +28,47 @@ export default function Home() {
                   </a>
                 </li>
               </ul>
+            </div>
+          </div>
+        </section>
+        <section className={styles.skillsContainer} id="skills">
+          <h3>Skills</h3>
+          <div className={styles.skills}>
+            <div className={styles.skill}>
+              <a href="https://nextjs.org/">
+                <TbBrandNextjs size={60}/>
+                <p>NextJS</p>
+              </a>
+            </div>
+            <div className={styles.skill}>
+              <a href="https://www.python.org/">
+                <TbBrandPython size={60}/>
+                <p>Python</p>
+              </a>
+            </div>
+            <div className={styles.skill}>
+              <a href="https://fastapi.tiangolo.com/">
+                <SiFastapi size={60}/>
+                <p>FastAPI</p>
+              </a>
+            </div>
+            <div className={styles.skill}>
+              <a href="https://www.typescriptlang.org/">
+                <TbBrandTypescript size={60}/>
+                <p>Typescript</p>
+              </a>
+            </div>
+            <div className={styles.skill}>
+              <a href="https://firebase.google.com/?hl=pt">
+                <TbBrandFirebase size={60}/>
+                <p>Firebase</p>
+              </a>
+            </div>
+            <div className={styles.skill}>
+              <a href="https://firebase.google.com/?hl=pt">
+                <FaJava size={60}/>
+                <p>Java</p>
+              </a>
             </div>
           </div>
         </section>
