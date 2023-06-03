@@ -59,13 +59,13 @@ export default function Home() {
               </a>
             </div>
             <div className={styles.skill}>
-              <a href="https://firebase.google.com/?hl=pt">
+              <a href="https://firebase.google.com/">
                 <TbBrandFirebase size={60}/>
                 <p>Firebase</p>
               </a>
             </div>
             <div className={styles.skill}>
-              <a href="https://firebase.google.com/?hl=pt">
+              <a href="https://www.java.com/">
                 <FaJava size={60}/>
                 <p>Java</p>
               </a>
