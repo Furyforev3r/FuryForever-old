@@ -3,6 +3,7 @@
     background: var(--background-highlight);
     display: grid;
     place-items: center;
+    padding-block: 2rem;
 }
 
 .footerItems {

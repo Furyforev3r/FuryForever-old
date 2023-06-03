@@ -33,48 +33,47 @@ export default function Home() {
         </section>
         <section className={styles.skillsContainer} id="skills">
           <h3>Skills</h3>
-          <div className={styles.skills}>
-            <div className={styles.skill}>
+          <ul className={styles.skills}>
+            <li className={styles.skill}>
               <a href="https://nextjs.org/">
                 <TbBrandNextjs size={60}/>
                 <p>NextJS</p>
               </a>
-            </div>
-            <div className={styles.skill}>
+            </li>
+            <li className={styles.skill}>
               <a href="https://www.python.org/">
                 <TbBrandPython size={60}/>
                 <p>Python</p>
               </a>
-            </div>
-            <div className={styles.skill}>
+            </li>
+            <li className={styles.skill}>
               <a href="https://fastapi.tiangolo.com/">
                 <SiFastapi size={60}/>
                 <p>FastAPI</p>
               </a>
-            </div>
-            <div className={styles.skill}>
+            </li>
+            <li className={styles.skill}>
               <a href="https://www.typescriptlang.org/">
                 <TbBrandTypescript size={60}/>
                 <p>Typescript</p>
               </a>
-            </div>
-            <div className={styles.skill}>
+            </li>
+            <li className={styles.skill}>
               <a href="https://firebase.google.com/">
                 <TbBrandFirebase size={60}/>
                 <p>Firebase</p>
               </a>
-            </div>
-            <div className={styles.skill}>
+            </li>
+            <li className={styles.skill}>
               <a href="https://www.java.com/">
                 <FaJava size={60}/>
                 <p>Java</p>
               </a>
-            </div>
-          </div>
+            </li>
+          </ul>
         </section>
       </main>
-      {/*<Footer />*/}
-      {/*Hidding Footer*/}
+      <Footer/>
     </>
   )
 }
