@@ -83,7 +83,7 @@ export default function Home() {
               </a>
             </li>
             <li className={styles.skill}>
-              <a href="https://developer.android.com/studio">
+              <a href="https://vuejs.org/">
                 <FaVuejs size={60}/>
                 <p>VueJS</p>
               </a>
