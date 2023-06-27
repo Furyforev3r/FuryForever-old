@@ -1,10 +1,10 @@
 import styles from './page.module.css'
 import Header from '../components/header'
 import Footer from '../components/footer'
-import { AiFillGithub, AiFillTwitterCircle } from 'react-icons/ai'
+import { AiFillGithub, AiFillTwitterCircle, AiFillAndroid } from 'react-icons/ai'
 import { TbBrandNextjs, TbBrandPython, TbBrandTypescript, TbBrandFirebase } from 'react-icons/tb'
-import { SiFastapi } from 'react-icons/si'
-import { FaJava } from 'react-icons/fa'
+import { SiFastapi, SiExpress } from 'react-icons/si'
+import { FaJava, FaVuejs } from 'react-icons/fa'
 
 export default function Home() {
   return (
@@ -68,6 +68,24 @@ export default function Home() {
               <a href="https://www.java.com/">
                 <FaJava size={60}/>
                 <p>Java</p>
+              </a>
+            </li>
+            <li className={styles.skill}>
+              <a href="https://expressjs.com/">
+                <SiExpress size={60}/>
+                <p>ExpressJS</p>
+              </a>
+            </li>
+            <li className={styles.skill}>
+              <a href="https://developer.android.com/studio">
+                <AiFillAndroid size={60}/>
+                <p>Android Studio</p>
+              </a>
+            </li>
+            <li className={styles.skill}>
+              <a href="https://developer.android.com/studio">
+                <FaVuejs size={60}/>
+                <p>VueJS</p>
               </a>
             </li>
           </ul>
