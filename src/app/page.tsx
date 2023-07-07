@@ -1,10 +1,7 @@
 import styles from './page.module.css'
 import Header from '../components/header'
 import Footer from '../components/footer'
-import { AiFillGithub, AiFillTwitterCircle, AiFillAndroid } from 'react-icons/ai'
-import { TbBrandNextjs, TbBrandPython, TbBrandTypescript, TbBrandFirebase } from 'react-icons/tb'
-import { SiFastapi, SiExpress } from 'react-icons/si'
-import { FaJava, FaVuejs } from 'react-icons/fa'
+import { AiFillGithub, AiFillTwitterCircle } from 'react-icons/ai'
 
 export default function Home() {
   return (
