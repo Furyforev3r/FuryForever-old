@@ -162,6 +162,13 @@
     gap: 1rem;
 }
 
+
+@media (max-width: 767px) {
+    .skill div img {
+        display: none;
+    }
+}
+
 .skillTitle {
     font-size: 1.5rem;
 }
