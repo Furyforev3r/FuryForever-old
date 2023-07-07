@@ -4,6 +4,7 @@
     display: grid;
     place-items: center;
     padding-block: 2rem;
+    border-top: 1px solid var(--decorative-subdued);
 }
 
 .footerItems {

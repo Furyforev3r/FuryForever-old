@@ -31,67 +31,55 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className={styles.skillsContainer} id="skills">
-          <h3>Skills</h3>
-          <ul className={styles.skills}>
+        <section className={styles.skillsSection}>
+          <h3 id="skills"><a href="https://github.com/Furyforev3r#%EF%B8%8F-skills">My skills</a></h3>
+          <ul className={styles.skillsContainer}>
             <li className={styles.skill}>
-              <a href="https://nextjs.org/">
-                <TbBrandNextjs size={60}/>
-                <p>NextJS</p>
-              </a>
+              <p className={styles.skillTitle}>Front-end</p>
+              <div>
+                <p className={styles.skills}>JS/Node, TypeScript, Python, PHP, Java, C#, ExpressJS, FastAPI, NextJS.</p>
+                <img src="https://skillicons.dev/icons?i=js,nodejs,typescript,python,php,java,cs,expressjs,fastapi,nextjs" alt="Skills Image." />
+              </div>
             </li>
             <li className={styles.skill}>
-              <a href="https://www.python.org/">
-                <TbBrandPython size={60}/>
-                <p>Python</p>
-              </a>
+              <p className={styles.skillTitle}>Back-end</p>
+              <div>
+                <p className={styles.skills}>HTML/CSS, ReactJs, NextJS, VueJS, NuxtJS, TypeScript, Tailwind CSS, Vite, Styled Components, Sass/Scss, jQuery.</p>
+                <img src="https://skillicons.dev/icons?i=html,css,react,nextjs,vuejs,nuxtjs,typescript,tailwind,vite,styledcomponents,sass,scss,jquery" alt="" />
+              </div>
             </li>
             <li className={styles.skill}>
-              <a href="https://fastapi.tiangolo.com/">
-                <SiFastapi size={60}/>
-                <p>FastAPI</p>
-              </a>
+              <p className={styles.skillTitle}>DataBases</p>
+              <div>
+                <p className={styles.skills}>Firebase, MongoDB, SQL/NoSQL.</p>
+                <img src="https://skillicons.dev/icons?i=firebase,mongodb,mysql,postgresql,sqlite" alt="" />
+              </div>
             </li>
             <li className={styles.skill}>
-              <a href="https://www.typescriptlang.org/">
-                <TbBrandTypescript size={60}/>
-                <p>Typescript</p>
-              </a>
+              <p className={styles.skillTitle}>Android</p>
+              <div>
+                <p className={styles.skills}>React Native, Kotlin/Java/Android Studio.</p>
+                <img src="https://skillicons.dev/icons?i=react,kotlin,java,androidstudio" alt="" />
+              </div>
             </li>
             <li className={styles.skill}>
-              <a href="https://firebase.google.com/">
-                <TbBrandFirebase size={60}/>
-                <p>Firebase</p>
-              </a>
+              <p className={styles.skillTitle}>GameDev</p>
+              <div>
+                <p className={styles.skills}>Construct 3, Unity2D/3D.</p>
+                <img src="https://skillicons.dev/icons?i=unity" alt="Skills Image." />
+              </div>
             </li>
             <li className={styles.skill}>
-              <a href="https://www.java.com/">
-                <FaJava size={60}/>
-                <p>Java</p>
-              </a>
-            </li>
-            <li className={styles.skill}>
-              <a href="https://expressjs.com/">
-                <SiExpress size={60}/>
-                <p>ExpressJS</p>
-              </a>
-            </li>
-            <li className={styles.skill}>
-              <a href="https://developer.android.com/studio">
-                <AiFillAndroid size={60}/>
-                <p>Android Studio</p>
-              </a>
-            </li>
-            <li className={styles.skill}>
-              <a href="https://vuejs.org/">
-                <FaVuejs size={60}/>
-                <p>VueJS</p>
-              </a>
+              <p className={styles.skillTitle}>Tools</p>
+              <div>
+                <p className={styles.skills}>Vercel, Git/GitHub/GitLab, Bash, Powershell, Visual Studio Code/Visual Studio, Discord, Gradle, (JetBrains) Idea, Linux, Markdown, Photoshop, Replit, SublimeText.</p>
+                <img src="https://skillicons.dev/icons?i=vercel,git,github,gitlab,bash,powershell,vscode,visualstudio,discord,gradle,idea,linux,md,ps,replit" alt="Skills Image." />
+              </div>
             </li>
           </ul>
         </section>
       </main>
-      {/*<Footer/>*/}
+      {/* <Footer/> */}
     </>
   )
 }
