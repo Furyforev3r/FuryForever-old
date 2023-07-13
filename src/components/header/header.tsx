@@ -1,4 +1,4 @@
-import styles from './styles/header.module.css'
+import styles from './header.module.css'
 
 export default function Header() {
   return (
@@ -17,7 +17,7 @@ export default function Header() {
           <a href="">Projects</a>
         </li>
         <li>
-          <a href="">Contact</a>
+          <a href="#contact">Contact</a>
         </li>
       </ul>
     </header>
