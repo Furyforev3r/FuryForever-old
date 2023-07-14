@@ -32,14 +32,14 @@ export default function Home() {
           <h3 id="skills"><a href="https://github.com/Furyforev3r#%EF%B8%8F-skills">My skills</a></h3>
           <ul className={styles.skillsContainer}>
             <li className={styles.skill}>
-              <p className={styles.skillTitle}>Front-end</p>
+              <p className={styles.skillTitle}>Back-end</p>
               <div>
                 <p className={styles.skills}>JS/Node, TypeScript, Python, PHP, Java, C#, ExpressJS, FastAPI, NextJS.</p>
                 <img src="https://skillicons.dev/icons?i=js,nodejs,typescript,python,php,java,cs,expressjs,fastapi,nextjs" alt="Skills Image." />
               </div>
             </li>
             <li className={styles.skill}>
-              <p className={styles.skillTitle}>Back-end</p>
+              <p className={styles.skillTitle}>Front-end</p>
               <div>
                 <p className={styles.skills}>HTML/CSS, ReactJS, NextJS, VueJS, NuxtJS, TypeScript, Tailwind CSS, Vite, Styled Components, Sass/Scss, jQuery.</p>
                 <img src="https://skillicons.dev/icons?i=html,css,react,nextjs,vuejs,nuxtjs,typescript,tailwind,vite,styledcomponents,sass,scss,jquery" alt="" />
