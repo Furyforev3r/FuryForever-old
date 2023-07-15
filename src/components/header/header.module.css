@@ -56,7 +56,7 @@
 }
 
 @media (max-width: 767px) {
-    .header ul {
+    .header nav {
         display: none;
     }
 }
