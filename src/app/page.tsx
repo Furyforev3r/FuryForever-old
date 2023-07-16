@@ -91,7 +91,7 @@ export default function Home() {
             <li>
               <a href="https://youtubeforever.vercel.app" className={styles.project}>
                 <p className={styles.projectTitle}>Youtube-Forever.</p>
-                <p className={styles.projectDesc}>An API that downloads audio and gets information from Youtube videos!.</p>
+                <p className={styles.projectDesc}>An API that downloads audio and gets information from Youtube videos!</p>
                 <a href="https://github.com/FuryForev3r/Youtube-Forever" className={styles.githubRepo}>
                   <AiFillGithub size={20} className={styles.githubIcon} /> Github repository!
                 </a>
