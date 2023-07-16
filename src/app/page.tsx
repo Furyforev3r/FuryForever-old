@@ -2,7 +2,6 @@ import styles from './page.module.css'
 import Header from '@/components/header/header'
 import Footer from '@/components/footer/footer'
 import { AiFillGithub, AiFillTwitterCircle } from 'react-icons/ai'
-import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -73,6 +72,31 @@ export default function Home() {
                 <p className={styles.skills}>Vercel, Git/GitHub/GitLab, Bash, Powershell, Visual Studio Code/Visual Studio, Discord, Gradle, (JetBrains) Idea, Linux, Markdown, Photoshop, Replit, SublimeText.</p>
                 <img src="https://skillicons.dev/icons?i=vercel,git,github,gitlab,bash,powershell,vscode,visualstudio,discord,gradle,idea,linux,md,ps,replit" alt="Skills Image." />
               </div>
+            </li>
+          </ul>
+        </section>
+        <section className={styles.section}>
+          <h3 className={styles.sectionTitle} id="projects"><a href="">My Projects</a></h3>
+          <ul className={styles.projectsContainer}>
+            <li>
+              <a href="https://mortis.vercel.app" className={styles.project}>
+                <p className={styles.projectTitle}>Mortis.</p>
+                <p className={styles.projectDesc}>A riddle inspired by Black Riddle..</p>
+                <a href="https://github.com/FuryForev3r/mortis" className={styles.githubRepo}>
+                  <AiFillGithub size={20} className={styles.githubIcon} /> Github repository!
+                </a>
+                <img className={styles.tecIcons} src="https://skillicons.dev/icons?i=nextjs,ts,vercel" alt="Tecs." />
+              </a>
+            </li>
+            <li>
+              <a href="https://youtubeforever.vercel.app" className={styles.project}>
+                <p className={styles.projectTitle}>Youtube-Forever.</p>
+                <p className={styles.projectDesc}>An API that downloads audio and gets information from Youtube videos!.</p>
+                <a href="https://github.com/FuryForev3r/Youtube-Forever" className={styles.githubRepo}>
+                  <AiFillGithub size={20} className={styles.githubIcon} /> Github repository!
+                </a>
+                <img className={styles.tecIcons} src="https://skillicons.dev/icons?i=express,ts,vercel" alt="Tecs." />
+              </a>
             </li>
           </ul>
         </section>

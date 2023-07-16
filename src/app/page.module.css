@@ -89,7 +89,7 @@
 }
 
 .sectionTitle {
-    font-size: 2.3rem;
+    font-size: 2.5rem;
     place-self: center;
     position: relative;
     padding: 0.3rem;
@@ -173,4 +173,64 @@
 .skills {
     font-size: 1.3rem;
     color: var(--text-subdued);
+}
+
+.projectsContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin: 1rem;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 3rem;
+    background: var(--background-highlight);
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.project:hover {
+    transform: translateY(-0.3rem);
+    transition: transform 0.3s;
+}
+
+.projectTitle {
+    font-size: 1.5rem;
+}
+
+.githubRepo {
+    font-size: 0.8rem;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.2rem;
+}
+
+.githubRepo:hover {
+    text-decoration: underline;
+    color: var(--text-subdued);
+    transition: color 0.3s;
+}
+
+.githubRepo:hover .githubIcon {
+    fill: var(--text-subdued);
+    transition: 0.3s;
+}
+
+.projectDesc {
+    font-size: 1rem;
+    color: var(--text-subdued);
+    width: 20rem;
+}
+
+.tecIcons {
+    max-width: 10rem;
 }
