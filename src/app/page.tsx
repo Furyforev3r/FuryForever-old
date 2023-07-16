@@ -81,7 +81,7 @@ export default function Home() {
             <li>
               <a href="https://mortis.vercel.app" className={styles.project}>
                 <p className={styles.projectTitle}>Mortis.</p>
-                <p className={styles.projectDesc}>A riddle inspired by Black Riddle..</p>
+                <p className={styles.projectDesc}>A riddle inspired by Black Riddle...</p>
                 <a href="https://github.com/FuryForev3r/mortis" className={styles.githubRepo}>
                   <AiFillGithub size={20} className={styles.githubIcon} /> Github repository!
                 </a>
