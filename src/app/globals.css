@@ -37,7 +37,7 @@
 body {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 4rem;
     height: 100dvh;
     box-sizing: border-box;
     overflow-x: hidden;

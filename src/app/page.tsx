@@ -2,6 +2,7 @@ import styles from './page.module.css'
 import Header from '@/components/header/header'
 import Footer from '@/components/footer/footer'
 import { AiFillGithub, AiFillTwitterCircle } from 'react-icons/ai'
+import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -28,8 +29,8 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className={styles.skillsSection}>
-          <h3 id="skills"><a href="https://github.com/Furyforev3r#%EF%B8%8F-skills">My skills</a></h3>
+        <section className={styles.section}>
+          <h3 className={styles.sectionTitle} id="skills"><a href="https://github.com/Furyforev3r#%EF%B8%8F-skills">My skills</a></h3>
           <ul className={styles.skillsContainer}>
             <li className={styles.skill}>
               <p className={styles.skillTitle}>Back-end</p>

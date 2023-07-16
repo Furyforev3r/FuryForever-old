@@ -1,13 +1,13 @@
 .main {
     display: flex;
     flex-direction: column;
+    gap: 2rem;
 }
 
 .presentation {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 3rem;
 }
 
 .myInfo {
@@ -82,18 +82,15 @@
     transition: 0.3s;
 }
 
-.skillsSection {
+.section {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
 }
 
-.skillsSection h3 {
+.sectionTitle {
     font-size: 2.3rem;
     place-self: center;
-}
-
-.skillsSection h3 {
     position: relative;
     padding: 0.3rem;
     background-image: linear-gradient(
@@ -110,7 +107,7 @@
     cursor: pointer;
 }
 
-.skillsSection h3::before {
+.sectionTitle::before {
     content: '';
     position: absolute;
     width: 100%;
@@ -124,12 +121,12 @@
     transition: transform .3s ease-in-out;
 }
 
-.skillsSection h3:hover::before {
+.sectionTitle:hover::before {
     transform-origin: left;
     transform: scaleX(1);
 }
 
-.skillsSection h3:hover {
+.sectionTitle:hover {
     background-position: 0;
 }
 
