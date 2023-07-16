@@ -76,7 +76,7 @@ export default function Home() {
           </ul>
         </section>
         <section className={styles.section}>
-          <h3 className={styles.sectionTitle} id="projects"><a href="">My Projects</a></h3>
+          <h3 className={styles.sectionTitle} id="projects"><a href="https://github.com/Furyforev3r?tab=repositories">My Projects</a></h3>
           <ul className={styles.projectsContainer}>
             <li>
               <a href="https://mortis.vercel.app" className={styles.project}>
