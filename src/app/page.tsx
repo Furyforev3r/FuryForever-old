@@ -150,6 +150,18 @@ export default function Home() {
                 </div>
               </a>
             </li>
+            <li>
+              <a href="https://github.com/Furyforev3r/File-Organizer" className={styles.project}>
+                <p className={styles.projectTitle}>File-Organizer.</p>
+                <p className={styles.projectDesc}>A simple file organizer.</p>
+                <a href="https://github.com/Furyforev3r/File-Organizer" className={styles.githubRepo}>
+                  <AiFillGithub size={20} className={styles.githubIcon} /> Github repository!
+                </a>
+                <div>
+                  <img className={styles.tecIcons} src="https://skillicons.dev/icons?i=python" alt="Tecs." />
+                </div>
+              </a>
+            </li>
           </ul>
         </section>
       </main>
