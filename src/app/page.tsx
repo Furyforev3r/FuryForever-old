@@ -114,6 +114,18 @@ export default function Home() {
                 </div>
               </a>
             </li>
+            <li>
+              <a href="https://dice-roller-api-express-js.vercel.app/" className={styles.project}>
+                <p className={styles.projectTitle}>Dice-Roller-API</p>
+                <p className={styles.projectDesc}>A dice rolling API done in Typescript using ExpressJS!</p>
+                <a href="https://github.com/Furyforev3r/Dice-Roller-API-ExpressJS" className={styles.githubRepo}>
+                  <AiFillGithub size={20} className={styles.githubIcon} /> Github repository!
+                </a>
+                <div>
+                  <img className={styles.tecIcons} src="https://skillicons.dev/icons?i=express,ts,vercel" alt="Tecs." />
+                </div>
+              </a>
+            </li>
           </ul>
         </section>
       </main>
