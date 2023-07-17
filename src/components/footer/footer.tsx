@@ -1,15 +1,19 @@
 import styles from './footer.module.css'
 import { AiFillGithub, AiFillTwitterCircle } from 'react-icons/ai'
+import { FiMail } from 'react-icons/fi'
 
 export default function Footer() {
   return (
     <footer className={styles.footer} id='contact'>
       <div className={styles.footerItems}>
-        <a href="https://github.com/FuryForev3r">
-          <AiFillGithub size={42} className={styles.githubIcon} />
+        <a href="https://github.com/FuryForev3r" className={styles.contact}>
+          <AiFillGithub size={42} className={styles.githubIcon} /> My Github!
         </a>
-        <a href="https://github.com/FuryForev3r">
-          <AiFillTwitterCircle size={42} className={styles.twitterIcon} />
+        <a href="https://github.com/FuryForev3r" className={styles.contact}>
+          <AiFillTwitterCircle size={42} className={styles.twitterIcon} /> My Twitter!
+        </a>
+        <a href="https://github.com/FuryForev3r" className={styles.contact}>
+          <FiMail size={32} /> furyforeveverdev@gmail.com
         </a>
       </div>
     </footer>

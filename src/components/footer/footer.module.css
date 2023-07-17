@@ -13,13 +13,29 @@
     gap: 1rem;
 }
 
-.githubIcon:hover {
+
+.contact {
+    font-size: 0.8rem;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.2rem;
+}
+
+.contact:hover {
+    text-decoration: underline;
+    color: var(--text-subdued);
+    transition: color 0.3s;
+}
+
+.contact:hover .githubIcon {
     fill: var(--text-subdued);
     transition: 0.3s;
     cursor: pointer;
 }
 
-.twitterIcon:hover {
+.contact:hover .twitterIcon {
     fill: var(--text-announcement);
     transition: 0.3s;
     cursor: pointer;
