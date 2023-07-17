@@ -13,7 +13,7 @@ export default function Footer() {
           <AiFillTwitterCircle size={42} className={styles.twitterIcon} /> My Twitter!
         </a>
         <a href="mailto:furyforeverdev@gmail.com" className={styles.contact}>
-          <FiMail size={32} /> furyforeveverdev@gmail.com
+          <FiMail size={32} /> furyforeverdev@gmail.com
         </a>
       </div>
     </footer>
