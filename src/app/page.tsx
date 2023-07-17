@@ -138,6 +138,18 @@ export default function Home() {
                 </div>
               </a>
             </li>
+            <li>
+              <a href="https://github.com/Furyforev3r/NextFlow" className={styles.project}>
+                <p className={styles.projectTitle}>NextFlow.</p>
+                <p className={styles.projectDesc}>A task app made in Next JS with drag and drop inspired by Trello!</p>
+                <a href="https://github.com/Furyforev3r/NextFlow" className={styles.githubRepo}>
+                  <AiFillGithub size={20} className={styles.githubIcon} /> Github repository!
+                </a>
+                <div>
+                  <img className={styles.tecIcons} src="https://skillicons.dev/icons?i=nextjs,ts" alt="Tecs." />
+                </div>
+              </a>
+            </li>
           </ul>
         </section>
       </main>
