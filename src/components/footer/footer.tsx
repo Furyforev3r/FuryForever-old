@@ -12,7 +12,7 @@ export default function Footer() {
         <a href="https://github.com/FuryForev3r" className={styles.contact}>
           <AiFillTwitterCircle size={42} className={styles.twitterIcon} /> My Twitter!
         </a>
-        <a href="https://github.com/FuryForev3r" className={styles.contact}>
+        <a href="mailto:furyforeverdev@gmail.com" className={styles.contact}>
           <FiMail size={32} /> furyforeveverdev@gmail.com
         </a>
       </div>
