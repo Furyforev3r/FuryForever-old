@@ -85,7 +85,9 @@ export default function Home() {
                 <a href="https://github.com/FuryForev3r/mortis" className={styles.githubRepo}>
                   <AiFillGithub size={20} className={styles.githubIcon} /> Github repository!
                 </a>
-                <img className={styles.tecIcons} src="https://skillicons.dev/icons?i=nextjs,ts,vercel" alt="Tecs." />
+                <div>
+                  <img className={styles.tecIcons} src="https://skillicons.dev/icons?i=nextjs,ts,vercel" alt="Tecs." />
+                </div>
               </a>
             </li>
             <li>
@@ -95,7 +97,21 @@ export default function Home() {
                 <a href="https://github.com/FuryForev3r/Youtube-Forever" className={styles.githubRepo}>
                   <AiFillGithub size={20} className={styles.githubIcon} /> Github repository!
                 </a>
-                <img className={styles.tecIcons} src="https://skillicons.dev/icons?i=express,ts,vercel" alt="Tecs." />
+                <div>
+                  <img className={styles.tecIcons} src="https://skillicons.dev/icons?i=express,ts,vercel" alt="Tecs." />
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/wilburslyrics" className={styles.project}>
+                <p className={styles.projectTitle}>Wilbur-Lyrics.</p>
+                <p className={styles.projectDesc}>A twitter bot that posts about Wilbur Soot!</p>
+                <a href="https://github.com/Furyforev3r/Wilbur-Lyrics-BOT" className={styles.githubRepo}>
+                  <AiFillGithub size={20} className={styles.githubIcon} /> Github repository!
+                </a>
+                <div>
+                  <img className={styles.tecIcons} src="https://skillicons.dev/icons?i=python,twitter" alt="Tecs." />
+                </div>
               </a>
             </li>
           </ul>
