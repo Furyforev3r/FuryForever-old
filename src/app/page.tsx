@@ -126,6 +126,18 @@ export default function Home() {
                 </div>
               </a>
             </li>
+            <li>
+              <a href="https://github.com/Furyforev3r/Decryptia" className={styles.project}>
+                <p className={styles.projectTitle}>Decryptia.</p>
+                <p className={styles.projectDesc}>Decryptia is a project whose goal is to work with cryptography of all kinds.</p>
+                <a href="https://github.com/Furyforev3r/Decryptia" className={styles.githubRepo}>
+                  <AiFillGithub size={20} className={styles.githubIcon} /> Github repository!
+                </a>
+                <div>
+                  <img className={styles.tecIcons} src="https://skillicons.dev/icons?i=python" alt="Tecs." />
+                </div>
+              </a>
+            </li>
           </ul>
         </section>
       </main>
