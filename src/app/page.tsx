@@ -116,7 +116,7 @@ export default function Home() {
             </li>
             <li>
               <a href="https://dice-roller-api-express-js.vercel.app/" className={styles.project}>
-                <p className={styles.projectTitle}>Dice-Roller-API</p>
+                <p className={styles.projectTitle}>Dice-Roller-API.</p>
                 <p className={styles.projectDesc}>A dice rolling API done in Typescript using ExpressJS!</p>
                 <a href="https://github.com/Furyforev3r/Dice-Roller-API-ExpressJS" className={styles.githubRepo}>
                   <AiFillGithub size={20} className={styles.githubIcon} /> Github repository!
@@ -164,7 +164,7 @@ export default function Home() {
             </li>
             <li>
               <a href="https://github.com/Furyforev3r/Spotify-Now-Playing" className={styles.project}>
-                <p className={styles.projectTitle}>Spotify-Now-Playing</p>
+                <p className={styles.projectTitle}>Spotify-Now-Playing.</p>
                 <p className={styles.projectDesc}>This program checks and displays the current music you are listening to on Spotify!</p>
                 <a href="https://github.com/Furyforev3r/Spotify-Now-Playing" className={styles.githubRepo}>
                   <AiFillGithub size={20} className={styles.githubIcon} /> Github repository!
