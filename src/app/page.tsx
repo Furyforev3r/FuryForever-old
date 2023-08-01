@@ -34,15 +34,15 @@ export default function Home() {
             <li className={styles.skill}>
               <p className={styles.skillTitle}>Back-end</p>
               <div>
-                <p className={styles.skills}>JS/Node, TypeScript, Python, PHP, Java, C#, ExpressJS, FastAPI, NextJS.</p>
-                <img src="https://skillicons.dev/icons?i=js,nodejs,typescript,python,php,java,cs,expressjs,fastapi,nextjs" alt="Skills Image." />
+                <p className={styles.skills}>JS/Node, TypeScript, Python, PHP, Java, C#, ExpressJS, FastAPI, NextJS, Rust.</p>
+                <img src="https://skillicons.dev/icons?i=js,nodejs,typescript,python,php,java,cs,expressjs,fastapi,nextjs,rust" alt="Skills Image." />
               </div>
             </li>
             <li className={styles.skill}>
               <p className={styles.skillTitle}>Front-end</p>
               <div>
-                <p className={styles.skills}>HTML/CSS, ReactJS, NextJS, VueJS, NuxtJS, TypeScript, Tailwind CSS, Vite, Styled Components, Sass/Scss, jQuery.</p>
-                <img src="https://skillicons.dev/icons?i=html,css,react,nextjs,vuejs,nuxtjs,typescript,tailwind,vite,styledcomponents,sass,scss,jquery" alt="" />
+                <p className={styles.skills}>HTML/CSS, ReactJS, NextJS, VueJS, NuxtJS, TypeScript, Tailwind CSS, Vite, Styled Components, Sass/Scss, jQuery, Tauri.</p>
+                <img src="https://skillicons.dev/icons?i=html,css,react,nextjs,vuejs,nuxtjs,typescript,tailwind,vite,styledcomponents,sass,scss,jquery,tauri" alt="" />
               </div>
             </li>
             <li className={styles.skill}>
