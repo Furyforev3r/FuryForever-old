@@ -42,21 +42,21 @@ export default function Home() {
               <p className={styles.skillTitle}>Front-end</p>
               <div>
                 <p className={styles.skills}>HTML/CSS, ReactJS, NextJS, VueJS, NuxtJS, TypeScript, Tailwind CSS, Vite, Styled Components, Sass/Scss, jQuery, Tauri.</p>
-                <img src="https://skillicons.dev/icons?i=html,css,react,nextjs,vuejs,nuxtjs,typescript,tailwind,vite,styledcomponents,sass,scss,jquery,tauri" alt="" />
+                <img src="https://skillicons.dev/icons?i=html,css,react,nextjs,vuejs,nuxtjs,typescript,tailwind,vite,styledcomponents,sass,scss,jquery,tauri" alt="Skills Image." />
               </div>
             </li>
             <li className={styles.skill}>
               <p className={styles.skillTitle}>DataBases</p>
               <div>
                 <p className={styles.skills}>Firebase, MongoDB, SQL/NoSQL.</p>
-                <img src="https://skillicons.dev/icons?i=firebase,mongodb,mysql,postgresql,sqlite" alt="" />
+                <img src="https://skillicons.dev/icons?i=firebase,mongodb,mysql,postgresql,sqlite" alt="Skills Image." />
               </div>
             </li>
             <li className={styles.skill}>
               <p className={styles.skillTitle}>Android</p>
               <div>
                 <p className={styles.skills}>React Native, Kotlin/Java/Android Studio.</p>
-                <img src="https://skillicons.dev/icons?i=react,kotlin,java,androidstudio" alt="" />
+                <img src="https://skillicons.dev/icons?i=react,kotlin,java,androidstudio" alt="Skills Image." />
               </div>
             </li>
             <li className={styles.skill}>
