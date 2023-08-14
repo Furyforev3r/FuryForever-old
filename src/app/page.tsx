@@ -103,10 +103,10 @@ export default function Home() {
               </a>
             </li>
             <li>
-              <a href="https://twitter.com/wilburslyrics" className={styles.project}>
-                <p className={styles.projectTitle}>Wilbur-Lyrics.</p>
-                <p className={styles.projectDesc}>A twitter bot that posts about Wilbur Soot!</p>
-                <a href="https://github.com/Furyforev3r/Wilbur-Lyrics-BOT" className={styles.githubRepo}>
+              <a href="https://twitter.com/karessbot" className={styles.project}>
+                <p className={styles.projectTitle}>Karess-Bot.</p>
+                <p className={styles.projectDesc}>This bot will tweet a random part of a song from a special playlist every 2 hours.</p>
+                <a href="https://github.com/Furyforev3r/karess-bot" className={styles.githubRepo}>
                   <AiFillGithub size={20} className={styles.githubIcon} /> Github repository!
                 </a>
                 <div>
