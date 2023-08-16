@@ -139,7 +139,7 @@ export default function Home() {
               </a>
             </li>
             <li>
-              <a href="https://github.com/Furyforev3r/NextFlow" className={styles.project}>
+              <a href="https://nextflow.vercel.app" className={styles.project}>
                 <p className={styles.projectTitle}>NextFlow.</p>
                 <p className={styles.projectDesc}>A task app made in Next JS with drag and drop inspired by Trello!</p>
                 <a href="https://github.com/Furyforev3r/NextFlow" className={styles.githubRepo}>
