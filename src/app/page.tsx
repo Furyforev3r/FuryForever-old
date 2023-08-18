@@ -152,7 +152,7 @@ export default function Home() {
             </li>
             <li>
               <a href="https://to-do-app-vite.vercel.app/" className={styles.project}>
-                <p className={styles.projectTitle}>To do App - Vite</p>
+                <p className={styles.projectTitle}>To do App - Vite.</p>
                 <p className={styles.projectDesc}>A to-do list app made in Vite using ReactJS!</p>
                 <a href="https://github.com/Furyforev3r/to-do-app-vite" className={styles.githubRepo}>
                   <AiFillGithub size={20} className={styles.githubIcon} /> Github repository!
