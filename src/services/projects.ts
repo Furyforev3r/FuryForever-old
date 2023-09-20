@@ -1,4 +1,4 @@
-interface Project {
+export declare interface Project {
     Title: string,
     Description: string,
     RepositoryURL: string,
@@ -80,13 +80,7 @@ const Projects: Array<Project> = [
         ProjectURL: "https://github.com/Furyforev3r/Spotify-Now-Playing",
         Tags: ["python"],
         SkillsIcons: "python"
-    },
-    {
-        Title: "",
-        Description: "",
-        RepositoryURL: "",
-        ProjectURL: "",
-        Tags: [""],
-        SkillsIcons: ""
-    },
+    }
 ]
+
+export default Projects

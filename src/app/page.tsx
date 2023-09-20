@@ -2,6 +2,7 @@ import styles from './page.module.css'
 import Header from '@/components/header/header'
 import Footer from '@/components/footer/footer'
 import { AiFillGithub, AiFillTwitterCircle } from 'react-icons/ai'
+import Projects, { Project } from '@/services/projects'
 
 export default function Home() {
   return (
@@ -78,114 +79,24 @@ export default function Home() {
         <section className={styles.section}>
           <h3 className={styles.sectionTitle} id="projects"><a href="https://github.com/Furyforev3r?tab=repositories">My Projects</a></h3>
           <ul className={styles.projectsContainer}>
-            <li>
-              <a href="https://mortis.vercel.app" className={styles.project}>
-                <p className={styles.projectTitle}>Mortis.</p>
-                <p className={styles.projectDesc}>A riddle inspired by Black Riddle...</p>
-                <a href="https://github.com/FuryForev3r/mortis" className={styles.githubRepo}>
-                  <AiFillGithub size={20} className={styles.githubIcon} /> Github repository!
-                </a>
-                <div>
-                  <img className={styles.tecIcons} src="https://skillicons.dev/icons?i=nextjs,ts,vercel" alt="Tecs." />
-                </div>
-              </a>
-            </li>
-            <li>
-              <a href="https://youtubeforever.vercel.app" className={styles.project}>
-                <p className={styles.projectTitle}>Youtube-Forever.</p>
-                <p className={styles.projectDesc}>An API that downloads audio and gets information from Youtube videos!</p>
-                <a href="https://github.com/FuryForev3r/Youtube-Forever" className={styles.githubRepo}>
-                  <AiFillGithub size={20} className={styles.githubIcon} /> Github repository!
-                </a>
-                <div>
-                  <img className={styles.tecIcons} src="https://skillicons.dev/icons?i=express,ts,vercel" alt="Tecs." />
-                </div>
-              </a>
-            </li>
-            <li>
-              <a href="https://twitter.com/karessbot" className={styles.project}>
-                <p className={styles.projectTitle}>Karess-Bot.</p>
-                <p className={styles.projectDesc}>This bot will tweet a random part of a song from a special playlist every 2 hours.</p>
-                <a href="https://github.com/Furyforev3r/karess-bot" className={styles.githubRepo}>
-                  <AiFillGithub size={20} className={styles.githubIcon} /> Github repository!
-                </a>
-                <div>
-                  <img className={styles.tecIcons} src="https://skillicons.dev/icons?i=python,twitter" alt="Tecs." />
-                </div>
-              </a>
-            </li>
-            <li>
-              <a href="https://dice-roller-api-express-js.vercel.app/" className={styles.project}>
-                <p className={styles.projectTitle}>Dice-Roller-API.</p>
-                <p className={styles.projectDesc}>A dice rolling API done in Typescript using ExpressJS!</p>
-                <a href="https://github.com/Furyforev3r/Dice-Roller-API-ExpressJS" className={styles.githubRepo}>
-                  <AiFillGithub size={20} className={styles.githubIcon} /> Github repository!
-                </a>
-                <div>
-                  <img className={styles.tecIcons} src="https://skillicons.dev/icons?i=express,ts,vercel" alt="Tecs." />
-                </div>
-              </a>
-            </li>
-            <li>
-              <a href="https://github.com/Furyforev3r/Decryptia" className={styles.project}>
-                <p className={styles.projectTitle}>Decryptia.</p>
-                <p className={styles.projectDesc}>Decryptia is a project whose goal is to work with cryptography of all kinds.</p>
-                <a href="https://github.com/Furyforev3r/Decryptia" className={styles.githubRepo}>
-                  <AiFillGithub size={20} className={styles.githubIcon} /> Github repository!
-                </a>
-                <div>
-                  <img className={styles.tecIcons} src="https://skillicons.dev/icons?i=python" alt="Tecs." />
-                </div>
-              </a>
-            </li>
-            <li>
-              <a href="https://nextflow.vercel.app" className={styles.project}>
-                <p className={styles.projectTitle}>NextFlow.</p>
-                <p className={styles.projectDesc}>A task app made in Next JS with drag and drop inspired by Trello!</p>
-                <a href="https://github.com/Furyforev3r/NextFlow" className={styles.githubRepo}>
-                  <AiFillGithub size={20} className={styles.githubIcon} /> Github repository!
-                </a>
-                <div>
-                  <img className={styles.tecIcons} src="https://skillicons.dev/icons?i=nextjs,ts" alt="Tecs." />
-                </div>
-              </a>
-            </li>
-            <li>
-              <a href="https://to-do-app-vite.vercel.app/" className={styles.project}>
-                <p className={styles.projectTitle}>To do App - Vite.</p>
-                <p className={styles.projectDesc}>A to-do list app made in Vite using ReactJS!</p>
-                <a href="https://github.com/Furyforev3r/to-do-app-vite" className={styles.githubRepo}>
-                  <AiFillGithub size={20} className={styles.githubIcon} /> Github repository!
-                </a>
-                <div>
-                  <img className={styles.tecIcons} src="https://skillicons.dev/icons?i=vite,ts" alt="Tecs." />
-                </div>
-              </a>
-            </li>
-            <li>
-              <a href="https://github.com/Furyforev3r/File-Organizer" className={styles.project}>
-                <p className={styles.projectTitle}>File-Organizer.</p>
-                <p className={styles.projectDesc}>A simple file organizer.</p>
-                <a href="https://github.com/Furyforev3r/File-Organizer" className={styles.githubRepo}>
-                  <AiFillGithub size={20} className={styles.githubIcon} /> Github repository!
-                </a>
-                <div>
-                  <img className={styles.tecIcons} src="https://skillicons.dev/icons?i=python" alt="Tecs." />
-                </div>
-              </a>
-            </li>
-            <li>
-              <a href="https://github.com/Furyforev3r/Spotify-Now-Playing" className={styles.project}>
-                <p className={styles.projectTitle}>Spotify-Now-Playing.</p>
-                <p className={styles.projectDesc}>This program checks and displays the current music you are listening to on Spotify!</p>
-                <a href="https://github.com/Furyforev3r/Spotify-Now-Playing" className={styles.githubRepo}>
-                  <AiFillGithub size={20} className={styles.githubIcon} /> Github repository!
-                </a>
-                <div>
-                  <img className={styles.tecIcons} src="https://skillicons.dev/icons?i=python" alt="Tecs." />
-                </div>
-              </a>
-            </li>
+            {
+              Projects.map((project: Project) => {
+                return (
+                  <li>
+                    <a href={project.ProjectURL} className={styles.project}>
+                      <p className={styles.projectTitle}>{project.Title}</p>
+                      <p className={styles.projectDesc}>{project.Description}</p>
+                      <a href={project.RepositoryURL} className={styles.githubRepo}>
+                        <AiFillGithub size={20} className={styles.githubIcon} /> Github repository!
+                      </a>
+                      <div>
+                        <img className={styles.tecIcons} src={`https://skillicons.dev/icons?i=${project.SkillsIcons}`} alt="Tecs." />
+                      </div>
+                    </a>
+                  </li>
+                )
+              })
+            }
           </ul>
         </section>
       </main>
