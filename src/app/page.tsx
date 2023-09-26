@@ -35,8 +35,8 @@ export default function Home() {
             <li className={styles.skill}>
               <p className={styles.skillTitle}>Back-end</p>
               <div>
-                <p className={styles.skills}>JS/Node, TypeScript, Python, PHP, Java, C#, ExpressJS, FastAPI, NextJS, Rust.</p>
-                <img src="https://skillicons.dev/icons?i=js,nodejs,typescript,python,php,java,cs,expressjs,fastapi,nextjs,rust" alt="Skills Image." />
+                <p className={styles.skills}>JS/Node, TypeScript, Python, PHP, Java, C#, Rust, Go, ExpressJS, FastAPI, NextJS.</p>
+                <img src="https://skillicons.dev/icons?i=js,nodejs,typescript,python,php,java,cs,rust,go,expressjs,fastapi,nextjs" />
               </div>
             </li>
             <li className={styles.skill}>
