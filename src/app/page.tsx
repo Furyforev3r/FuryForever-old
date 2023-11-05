@@ -99,6 +99,13 @@ export default function Home() {
             }
           </ul>
         </section>
+        <section className={styles.section}>
+          <h3 className={styles.sectionTitle} id="projects"><a href="https://instagram.com/_furyforever_">My Appearances</a></h3>
+          <ul className={styles.appearancesContainer}>
+            <li className={styles.appearance}>
+            </li>
+          </ul>
+        </section>
       </main>
       <Footer/>
     </>
