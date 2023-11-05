@@ -2,7 +2,7 @@ import './globals.css'
 
 
 export const metadata = {
-  title: 'FuryForever Dev',
+  title: 'FuryForever Dev.',
   description: "FuryForever's portifolio!",
 }
 
