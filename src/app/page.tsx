@@ -103,6 +103,9 @@ export default function Home() {
           <h3 className={styles.sectionTitle} id="projects"><a href="https://instagram.com/_furyforever_">My Appearances</a></h3>
           <ul className={styles.appearancesContainer}>
             <li className={styles.appearance}>
+              <a href='https://www.instagram.com/p/CzL-wEIOgD5/embed'>
+                <iframe id="frame" src="https://www.instagram.com/p/CzL-wEIOgD5/embed"/>
+              </a>
             </li>
           </ul>
         </section>

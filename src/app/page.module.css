@@ -236,3 +236,33 @@
 .tecIcons {
     max-width: 10rem;
 }
+
+.appearancesContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+    margin: 1rem;
+}
+
+
+.appearance {
+    width: 30rem;
+    height: 30rem;
+    padding: 2rem;
+    background: var(--background-highlight);
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.appearance:hover {
+    transform: translateY(-0.3rem);
+    transition: transform 0.3s;
+}
+
+.appearance iframe {
+    width: 100%;
+    height: 100%;
+}
