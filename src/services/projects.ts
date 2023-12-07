@@ -80,6 +80,14 @@ const Projects: Array<Project> = [
         ProjectURL: "https://github.com/Furyforev3r/Spotify-Now-Playing",
         Tags: ["python"],
         SkillsIcons: "python"
+    },
+    {
+        Title: "StockWise.",
+        Description: "A stock management REST API.",
+        RepositoryURL: "https://github.com/Furyforev3r/StockWise",
+        ProjectURL: "https://github.com/Furyforev3r/StockWise",
+        Tags: ["typescript", "firebase", "expressjs"],
+        SkillsIcons: "ts,firebase,expressjs"
     }
 ]
 
