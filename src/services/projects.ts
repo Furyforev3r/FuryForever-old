@@ -36,8 +36,8 @@ const Projects: Array<Project> = [
     {
         Title: "Dicer-API.",
         Description: "A dice rolling API done in Typescript using ExpressJS!",
-        RepositoryURL: "https://dicer-api.vercel.app/",
-        ProjectURL: "https://github.com/Furyforev3r/Dice-Roller-API-ExpressJS",
+        RepositoryURL: "https://github.com/Furyforev3r/Dicer-API",
+        ProjectURL: "https://dicer-api.vercel.app/",
         Tags: ["express", "express", "typescript", "ts", "vercel"],
         SkillsIcons: "express,ts,vercel"
     },
