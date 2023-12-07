@@ -100,8 +100,8 @@ const Projects: Array<Project> = [
     {
         Title: "DiscordTmpl.",
         Description: "A quick discord bot template creator.",
-        RepositoryURL: "https://github.com/Furyforev3r/Discord-Bot-Template-Creator",
-        ProjectURL: "https://github.com/Furyforev3r/Discord-Bot-Template-Creator",
+        RepositoryURL: "https://github.com/Furyforev3r/DiscordTmpl",
+        ProjectURL: "https://github.com/Furyforev3r/DiscordTmpl",
         Tags: ["cs", "csharp", "c#", "discord"],
         SkillsIcons: "cs"
     }
