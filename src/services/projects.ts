@@ -96,6 +96,14 @@ const Projects: Array<Project> = [
         ProjectURL: "https://github.com/Furyforev3r/FutDraw",
         Tags: ["python"],
         SkillsIcons: "python"
+    },
+    {
+        Title: "Discord-Bot-Template-Creator.",
+        Description: "A quick discord bot template creator.",
+        RepositoryURL: "https://github.com/Furyforev3r/Discord-Bot-Template-Creator",
+        ProjectURL: "https://github.com/Furyforev3r/Discord-Bot-Template-Creator",
+        Tags: ["cs", "csharp", "c#", "discord"],
+        SkillsIcons: "cs"
     }
 ]
 
