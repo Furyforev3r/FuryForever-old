@@ -1,7 +1,7 @@
 import styles from './page.module.css'
 import Header from '@/components/header/header'
 import Footer from '@/components/footer/footer'
-import { AiFillGithub, AiFillTwitterCircle } from 'react-icons/ai'
+import { AiFillGithub, AiFillTwitterCircle, AiFillLinkedin } from 'react-icons/ai'
 import Projects, { Project } from '@/services/projects'
 
 export default function Home() {
@@ -23,6 +23,11 @@ export default function Home() {
                 <li>
                   <a href="https://twitter.com/furyforev3r">
                     <AiFillTwitterCircle size={42} className={styles.twitterIcon} />
+                  </a>
+                </li>
+                <li>
+                  <a href="https://linkedin.com/furyforev3r">
+                    <AiFillLinkedin size={42} className={styles.linkedinIcon} />
                   </a>
                 </li>
               </ul>
@@ -63,8 +68,8 @@ export default function Home() {
             <li className={styles.skill}>
               <p className={styles.skillTitle}>GameDev</p>
               <div>
-                <p className={styles.skills}>Construct 3, Unity2D/3D.</p>
-                <img src="https://skillicons.dev/icons?i=unity" alt="Skills Image." />
+                <p className={styles.skills}>Construct 3, Unity2D/3D, Godot.</p>
+                <img src="https://skillicons.dev/icons?i=unity,godot" alt="Skills Image." />
               </div>
             </li>
             <li className={styles.skill}>

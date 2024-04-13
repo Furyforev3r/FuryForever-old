@@ -82,6 +82,10 @@
     transition: 0.3s;
 }
 
+.linkedinIcon:hover {
+    fill: var(--text-announcement);
+    transition: 0.3s;
+}
 .section {
     display: flex;
     flex-direction: column;
