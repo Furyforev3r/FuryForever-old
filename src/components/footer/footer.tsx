@@ -7,10 +7,10 @@ export default function Footer() {
     <footer className={styles.footer} id='contact'>
       <div className={styles.footerItems}>
         <a href="https://github.com/FuryForev3r" className={styles.contact}>
-          <AiFillGithub size={42} className={styles.githubIcon} /> My Github!
+          <AiFillGithub size={42} className={styles.githubIcon} />Github!
         </a>
         <a href="https://github.com/FuryForev3r" className={styles.contact}>
-          <AiFillTwitterCircle size={42} className={styles.twitterIcon} /> My Twitter!
+          <AiFillTwitterCircle size={42} className={styles.twitterIcon} />Twitter!
         </a>
         <a href="mailto:furyforeverdev@gmail.com" className={styles.contact}>
           <FiMail size={32} /> furyforeverdev@gmail.com
