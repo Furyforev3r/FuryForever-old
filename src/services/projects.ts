@@ -51,7 +51,7 @@ const Projects: Array<Project> = [
   },
   {
     Title: "Spotify-Now-Playing.",
-    Description: "This program checks and displays the current music you are listening to on Spotify!",
+    Description: "Displays the song you are currently listening to on Spotify!",
     RepositoryURL: "https://github.com/Furyforev3r/Spotify-Now-Playing",
     ProjectURL: "https://github.com/Furyforev3r/Spotify-Now-Playing",
     Tags: ["python"],
