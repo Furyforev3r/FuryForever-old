@@ -1,325 +1,321 @@
 .main {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
 .presentation {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .myInfo {
-    display: flex;
-    flex-direction: column;
-    gap: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
 }
 
 .myInfo h2 {
-    font-size: 2.5rem;
+  font-size: 2.5rem;
 }
 
 .myInfo h2 span {
-    position: relative;
-    padding: 0.3rem;
-    background-image: linear-gradient(
-        to right,
-        var(--purple-color-secondary)
-        ,
-        var(--text-base)
-    );
-    background-size: 200% 100%;
-    background-position: 50%;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    transition: all 0.3s ease-in-out;
-    cursor: pointer;
+  position: relative;
+  padding: 0.3rem;
+  background-image: linear-gradient(to right,
+      var(--purple-color-secondary),
+      var(--text-base));
+  background-size: 200% 100%;
+  background-position: 50%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
 }
 
 .myInfo h2 span::before {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 0.2rem;
-    border-radius: 0.2rem;
-    background-color: var(--purple-color-primary);
-    bottom: 0;
-    left: 0;
-    transform-origin: right;
-    transform: scaleX(0);
-    transition: transform .3s ease-in-out;
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 0.2rem;
+  border-radius: 0.2rem;
+  background-color: var(--purple-color-primary);
+  bottom: 0;
+  left: 0;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform .3s ease-in-out;
 }
 
 .myInfo h2 span:hover::before {
-    transform-origin: left;
-    transform: scaleX(1);
+  transform-origin: left;
+  transform: scaleX(1);
 }
 
 .myInfo h2 span:hover {
-    background-position: 0;
+  background-position: 0;
 }
 
 .myInfo p {
-    color: var(--text-subdued);
-    font-weight: 600;
-    font-size: 1rem;
+  color: var(--text-subdued);
+  font-weight: 600;
+  font-size: 1rem;
 }
 
 .socialLinks ul {
-    display: flex;
-    flex-direction: row;
-    gap: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
 }
 
 .githubIcon:hover {
-    fill: var(--text-subdued);
-    transition: 0.3s;
+  fill: var(--text-subdued);
+  transition: 0.3s;
 }
 
 .twitterIcon:hover {
-    fill: var(--text-announcement);
-    transition: 0.3s;
+  fill: var(--text-announcement);
+  transition: 0.3s;
 }
 
 .linkedinIcon:hover {
-    fill: var(--text-announcement);
-    transition: 0.3s;
+  fill: var(--text-announcement);
+  transition: 0.3s;
 }
+
 .section {
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
 }
 
 .sectionTitle {
-    font-size: 2.5rem;
-    place-self: center;
-    position: relative;
-    padding: 0.3rem;
-    background-image: linear-gradient(
-        to right,
-        var(--purple-color-secondary)
-        ,
-        var(--text-base)
-    );
-    background-size: 200% 100%;
-    background-position: 50%;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    transition: all 0.3s ease-in-out;
-    cursor: pointer;
+  font-size: 2.5rem;
+  place-self: center;
+  position: relative;
+  padding: 0.3rem;
+  background-image: linear-gradient(to right,
+      var(--purple-color-secondary),
+      var(--text-base));
+  background-size: 200% 100%;
+  background-position: 50%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
 }
 
 .sectionTitle::before {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 0.2rem;
-    border-radius: 0.2rem;
-    background-color: var(--purple-color-primary);
-    bottom: 0;
-    left: 0;
-    transform-origin: right;
-    transform: scaleX(0);
-    transition: transform .3s ease-in-out;
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 0.2rem;
+  border-radius: 0.2rem;
+  background-color: var(--purple-color-primary);
+  bottom: 0;
+  left: 0;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform .3s ease-in-out;
 }
 
 .sectionTitle:hover::before {
-    transform-origin: left;
-    transform: scaleX(1);
+  transform-origin: left;
+  transform: scaleX(1);
 }
 
 .sectionTitle:hover {
-    background-position: 0;
+  background-position: 0;
 }
 
 .skillsContainer {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 1rem;
 }
 
 .skill {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    padding: 3rem;
-    border-radius: 3px;
-    border: 1px solid var(--decorative-subdued);
-    cursor: pointer;
-    scale: 100%;
-    transition: scale 0.3s;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 3rem;
+  border-radius: 3px;
+  border: 1px solid var(--decorative-subdued);
+  cursor: pointer;
+  scale: 100%;
+  transition: scale 0.3s;
 }
 
 .skill:hover {
-    scale: 101%;
-    transition: 0.3s;
+  scale: 101%;
+  transition: 0.3s;
 }
 
 .skill div {
-    display: grid;
-    gap: 1rem;
+  display: grid;
+  gap: 1rem;
 }
 
 
 @media (max-width: 930px) {
-    .skill div img {
-        display: none;
-    }
+  .skill div img {
+    display: none;
+  }
 }
 
 .skillTitle {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 .skills {
-    font-size: 1.3rem;
-    color: var(--text-subdued);
+  font-size: 1.3rem;
+  color: var(--text-subdued);
 }
 
 .experienceSection {
-    gap: 0;
+  gap: 0;
 }
 
 .experienceContainer {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    margin: 1rem;   
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 1rem;
 }
 
 .separator {
-    border-radius: 50%;
-    background: var(--text-base);
-    width: 0.6rem;
-    height: 0.6rem;
-    margin-bottom: 1rem;
+  border-radius: 50%;
+  background: var(--text-base);
+  width: 0.6rem;
+  height: 0.6rem;
+  margin-bottom: 1rem;
 }
 
 .experienceContent {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    margin-left: 0.3rem;
-    padding: 1rem;
-    border-left: solid 0.1rem var(--text-base);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-left: 0.3rem;
+  padding: 1rem;
+  border-left: solid 0.1rem var(--text-base);
 }
 
 .experienceItem {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    margin: 0.3rem;
-    padding: 2rem;
-    border-radius: 3px;
-    border: 1px solid var(--decorative-subdued);
-    transition: scale 0.3s;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 0.3rem;
+  padding: 2rem;
+  border-radius: 3px;
+  border: 1px solid var(--decorative-subdued);
+  transition: scale 0.3s;
 }
 
 .experienceItem:hover {
-    scale: 101%;
-    transition: 0.3s;
+  scale: 101%;
+  transition: 0.3s;
 }
 
 .experienceItem p {
-    color: var(--text-subdued);
-    font-size: 1.3rem;
+  color: var(--text-subdued);
+  font-size: 1.3rem;
 }
 
 .experienceDate {
-    color: var(--text-subdued);
+  color: var(--text-subdued);
 }
 
 .projectsContainer {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
-    margin: 1rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1rem;
 }
 
 .project {
-    height: 10rem;
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    padding: 3rem;
-    background: var(--background-highlight);
-    border-radius: 1rem;
-    cursor: pointer;
-    transition: transform 0.3s;
+  height: 10rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 3rem;
+  background: var(--background-highlight);
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: transform 0.3s;
 }
 
 .project:hover {
-    transform: translateY(-0.3rem);
-    transition: transform 0.3s;
+  transform: translateY(-0.3rem);
+  transition: transform 0.3s;
 }
 
 .projectTitle {
-    font-size: 1.5rem;
-    font-weight: bold;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
 .githubRepo {
-    font-size: 0.8rem;
-    font-weight: bold;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 0.2rem;
+  font-size: 0.8rem;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.2rem;
 }
 
 .githubRepo:hover {
-    text-decoration: underline;
-    color: var(--text-subdued);
-    transition: color 0.3s;
+  text-decoration: underline;
+  color: var(--text-subdued);
+  transition: color 0.3s;
 }
 
 .githubRepo:hover .githubIcon {
-    fill: var(--text-subdued);
-    transition: 0.3s;
+  fill: var(--text-subdued);
+  transition: 0.3s;
 }
 
 .projectDesc {
-    font-size: 1rem;
-    color: var(--text-subdued);
-    width: 17rem;
+  font-size: 1rem;
+  color: var(--text-subdued);
+  width: 17rem;
 }
 
 .tecIcons {
-    max-width: 10rem;
+  max-width: 10rem;
 }
 
 .appearancesContainer {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 1rem;
-    margin: 1rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
+  margin: 1rem;
 }
 
 
 .appearance {
-    width: 30rem;
-    height: 30rem;
-    padding: 2rem;
-    background: var(--background-highlight);
-    border-radius: 1rem;
-    cursor: pointer;
-    transition: transform 0.3s;
+  width: 30rem;
+  height: 30rem;
+  padding: 2rem;
+  background: var(--background-highlight);
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: transform 0.3s;
 }
 
 .appearance:hover {
-    transform: translateY(-0.3rem);
-    transition: transform 0.3s;
+  transform: translateY(-0.3rem);
+  transition: transform 0.3s;
 }
 
 .appearance iframe {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }

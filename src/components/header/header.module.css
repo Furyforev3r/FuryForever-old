@@ -1,63 +1,59 @@
 .header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    padding: 1rem;
-    border-bottom: 1px solid var(--decorative-subdued);
-    background: var(--background-highlight);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+  border-bottom: 1px solid var(--decorative-subdued);
+  background: var(--background-highlight);
 }
 
 .header ul {
-    display: flex;
-    flex-direction: row;
-    gap: 1rem;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
 }
 
 
 .header a {
-    position: relative;
-    padding: 0.3rem;
-    font-weight: bold;
-    background-image: linear-gradient(
-        to right,
-        var(--purple-color-primary)
-        ,
-        var(--text-base)
-    );
-    background-size: 200% 100%;
-    background-position: 100%;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    transition: all 0.3s ease-in-out;
+  position: relative;
+  padding: 0.3rem;
+  font-weight: bold;
+  background-image: linear-gradient(to right,
+      var(--purple-color-primary),
+      var(--text-base));
+  background-size: 200% 100%;
+  background-position: 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease-in-out;
 }
 
 .header a::before {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 0.2rem;
-    border-radius: 0.2rem;
-    background-color: var(--purple-color-primary);
-    bottom: 0;
-    left: 0;
-    transform-origin: right;
-    transform: scaleX(0);
-    transition: transform .3s ease-in-out;
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 0.2rem;
+  border-radius: 0.2rem;
+  background-color: var(--purple-color-primary);
+  bottom: 0;
+  left: 0;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform .3s ease-in-out;
 }
 
 .header a:hover::before {
-    transform-origin: left;
-    transform: scaleX(1);
+  transform-origin: left;
+  transform: scaleX(1);
 }
 
 .header a:hover {
-    background-position: 0;
+  background-position: 0;
 }
 
 @media (max-width: 767px) {
-    .header nav {
-        display: none;
-    }
+  .header nav {
+    display: none;
+  }
 }
-
