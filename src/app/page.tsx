@@ -47,7 +47,7 @@ export default function Home() {
             <li className={styles.skill}>
               <p className={styles.skillTitle}>Front-end</p>
               <div>
-                <p className={styles.skills}>HTML/CSS, ReactJS, NextJS, VueJS, NuxtJS, Tailwind CSS, Vite,Sass/Scss, jQuery, Tauri.</p>
+                <p className={styles.skills}>HTML/CSS, ReactJS, NextJS, VueJS, NuxtJS, Tailwind CSS, Vite, Sass/Scss, jQuery, Tauri.</p>
                 <img src="https://skillicons.dev/icons?i=html,css,react,nextjs,vuejs,nuxtjs,tailwind,vite,sass,scss,jquery,tauri" alt="Skills Image." />
               </div>
             </li>
