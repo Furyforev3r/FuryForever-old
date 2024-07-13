@@ -11,7 +11,7 @@ export declare interface Project {
 const Projects: Array<Project> = [
   {
     Title: "Nextflow.",
-    Description: "A task app made in Next JS with drag and drop inspired by Trello!",
+    Description: "A customizable task app with drag and drop!",
     RepositoryURL: "https://github.com/Furyforev3r/Nextflow",
     ProjectURL: "https://nextflow.vercel.app",
     Tags: ["next", "nextjs", "typescript", "ts"],
