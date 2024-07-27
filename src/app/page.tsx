@@ -12,7 +12,7 @@ export default function Home() {
         <section className={styles.presentation} id="about">
           <div className={styles.myInfo}>
             <h2>I'm <span><a href='https://github.com/FuryForev3r'>FuryForever!</a></span></h2>
-            <p>Hi! My internet alias is FuryForever, but my real name is Messias Robson. <br /> I am a Brazilian student and a Full Stack developer.</p>
+            <p>Hello, my name is Messias (Rob and FuryForever are my nicknames) and I am a Software engineer.</p>
             <div className={styles.socialLinks}>
               <ul>
                 <li>
