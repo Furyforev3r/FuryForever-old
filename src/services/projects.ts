@@ -15,7 +15,7 @@ const Projects: Array<Project> = [
     RepositoryURL: "https://soccernet.vercel.app/",
     ProjectURL: "https://soccernet.vercel.app/",
     Tags: ["ts", "typescript", "nextjs", "express", "firebase", "vercel"],
-    SkillsIcons: "ts,nextjs,expres,firebase,vercel"
+    SkillsIcons: "ts,nextjs,express,firebase,vercel"
   },
   {
     Title: "Nextflow.",
