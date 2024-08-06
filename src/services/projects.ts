@@ -10,6 +10,14 @@ export declare interface Project {
 
 const Projects: Array<Project> = [
   {
+    Title: "SoccerNet.",
+    Description: "Welcome to SoccerNet, the ultimate platform for football lovers!",
+    RepositoryURL: "https://soccernet.vercel.app/",
+    ProjectURL: "https://soccernet.vercel.app/",
+    Tags: ["ts", "typescript", "nextjs", "express", "firebase", "vercel"],
+    SkillsIcons: "ts,nextjs,expres,firebase,vercel"
+  },
+  {
     Title: "Nextflow.",
     Description: "A customizable task app with drag and drop!",
     RepositoryURL: "https://github.com/Furyforev3r/Nextflow",
