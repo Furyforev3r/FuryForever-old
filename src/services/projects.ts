@@ -16,7 +16,7 @@ const Projects: Array<Project> = [
     ProjectURL: "https://soccernet.vercel.app/",
     Tags: ["ts", "typescript", "nextjs", "express", "firebase", "vercel"],
     SkillsIcons: "ts,nextjs,express,firebase,vercel"
-  },[
+  },
   {
     Title: "Win.",
     Description: "Win is a modern and lightweight code editor",
