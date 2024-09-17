@@ -17,6 +17,7 @@ const Projects: Array<Project> = [
     Tags: ["ts", "svelte", "cargo", "rust", "tauri"],
     SkillsIcons: "tauri,svelte,rust,ts"
   },
+  {
     Title: "SoccerNet.",
     Description: "Welcome to SoccerNet, the ultimate platform for football lovers!",
     RepositoryURL: "https://soccernet.vercel.app/",
@@ -29,8 +30,8 @@ const Projects: Array<Project> = [
     Description: "A customizable task app with drag and drop!",
     RepositoryURL: "https://github.com/Furyforev3r/Nextflow",
     ProjectURL: "https://nextflow.vercel.app",
-    Tags: ["next", "nextjs", "typescript", "ts"],
-    SkillsIcons: "nextjs,ts"
+    Tags: ["next", "nextjs", "typescript", "ts", "vercel"],
+    SkillsIcons: "nextjs,ts,vercel"
   },
   {
     Title: "Mortis.",
