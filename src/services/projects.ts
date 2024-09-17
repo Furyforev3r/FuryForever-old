@@ -26,6 +26,14 @@ const Projects: Array<Project> = [
     SkillsIcons: "ts,nextjs,express,firebase,vercel"
   },
   {
+    Title: "Quantix Bank.",
+    Description: "Manage your finances effortlessly with cutting-edge technology.",
+    RepositoryURL: "https://github.com/Furyforev3r/Quantix-Bank",
+    ProjectURL: "https://quantix-bank.vercel.app",
+    Tags: ["next", "nextjs", "typescript", "ts", "vercel", "tailwind"],
+    SkillsIcons: "nextjs,ts,vercel,tailwind"
+  },
+  {
     Title: "Nextflow.",
     Description: "A customizable task app with drag and drop!",
     RepositoryURL: "https://github.com/Furyforev3r/Nextflow",
