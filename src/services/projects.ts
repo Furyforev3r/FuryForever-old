@@ -26,7 +26,7 @@ const Projects: Array<Project> = [
     SkillsIcons: "ts,nextjs,express,firebase,vercel"
   },
   {
-    Title: "Quantix Bank.",
+    Title: "Quantix-Bank.",
     Description: "Manage your finances effortlessly with cutting-edge technology.",
     RepositoryURL: "https://github.com/Furyforev3r/Quantix-Bank",
     ProjectURL: "https://quantix-bank.vercel.app",
