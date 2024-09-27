@@ -26,7 +26,7 @@ export default function Home() {
                   </a>
                 </li>
                 <li>
-                  <a href="https://linkedin.com/in/furyforever">
+                  <a href="https://www.linkedin.com/in/messias-dev/">
                     <AiFillLinkedin size={42} className={styles.linkedinIcon} />
                   </a>
                 </li>
