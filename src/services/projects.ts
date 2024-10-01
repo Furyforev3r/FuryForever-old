@@ -26,6 +26,14 @@ const Projects: Array<Project> = [
     SkillsIcons: "ts,nextjs,express,firebase,vercel"
   },
   {
+    Title: "Ivory.",
+    Description: "Your favorite little space.",
+    RepositoryURL: "https://github.com/Furyforev3r/Ivory",
+    ProjectURL: "https://ivory-social.vercel.app/",
+    Tags: ["ts", "typescript", "svelte", "firebase", "vercel"],
+    SkillsIcons: "ts,svelte,firebase,vercel"
+  },
+  {
     Title: "Quantix-Bank.",
     Description: "Manage your finances effortlessly with cutting-edge technology.",
     RepositoryURL: "https://github.com/Furyforev3r/Quantix-Bank",
